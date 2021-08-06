@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Ethereum</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="shortcut icon" href="/static/images/favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap">
+    <link rel="stylesheet" href="/static/epidem.css" />
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.2.3.min.js"
+        integrity="sha384-T2yuo9Oe71Cz/I4X9Ac5+gpEa5a8PpJCDlqKYO0CfAuEszu1JrXLl8YugMqYe3sM" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+</head>
+
+<body id="myPage">
+
+
+    
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-7 mx-auto">
+                <div class="bg-white rounded-lg shadow-sm p-5">
+                    <!-- For demo purpose -->
+                    <div class="row mb-4">
+                        <div class="col-lg-8 mx-auto">
+                            <h2 class="display-4 text-center">Ethereum Modelling</h2>
+                            <br>
+                            <p id="epid_description" class="lead mb-0">
+                                This is the page to display our predictions for Ethereum! Below you will be able to visualize a few graphs that indicate our predictions for the price of ethereum tomorrow using last weeks' prices
+                            </p>
+                        </div>
+                    </div>
+                    <div id="header_container" class="row mb-4">
+                        <div class="col mx-auto">
+                            <p>
+                                <strong>Ethereum without sentiment analysis:</strong> It represents how the cryptocurrency closing price will fluctuate tomorrow without using sentiment analysis as a variable.   
+                                <br><br>
+				<img id="ETC1" src='images/ETH-NoSentiment.PNG' alt="ETH">
+				<!-- <img id="R2" src='images/ETH_NoSentiment_r2.PNG' alt="ETH"> -->
+				<br><br>
+
+                                <strong>Ethereum with sentiment analysis:</strong> It represents how the cryptocurrency closing price will fluctuate tomorrow using sentiment analysis as a variable.
+                                <br><br>
+				<img id="ETC" src='images/ETH-Sentiment.PNG' alt="ETH">
+                               <!-- <img id="R2" src='images/ETH_Sentiment_r2.PNG' alt="ETH"> -->
+                                <br><br>
+
+                                
+				
+                            </p>
+                        </div>
+                    </div>
+                    <br>
+
+                   
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

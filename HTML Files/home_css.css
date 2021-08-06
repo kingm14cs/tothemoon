@@ -1,0 +1,70 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 13%;
+}
+
+#work {
+  overflow: hidden; 
+  border-collapse: separate;
+  border-spacing: 0px 1em;
+}
+
+#boxes {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: auto;
+}
+
+#box {
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+  display:block;
+}
+
+#face {
+  width: auto ;
+  max-width: 60%;
+  height: auto ;
+}
+
+#salem {
+    text-align: center;
+    min-width : 11rem;
+    max-width : 13rem;
+    margin: auto;
+
+}
+
+#salembio {
+  text-align: justify;
+  min-width : 10rem;
+
+}
+
+#salemres {
+    min-width : 19rem;
+    max-width : 20rem;
+    margin: auto;
+}
+
+#about {
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+}
+
+#contact {
+    padding-left: 37%;
+    text-align: center;
+}
+
+#faces_row {
+    align-content: center;
+}
